@@ -235,9 +235,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.12.4</version>
                 <configuration>
-                    <includes>
+                    <!--<includes>
                         <include>**/*Test.java</include>
-                    </includes>
+                    </includes>-->
+                    <skipTests>true</skipTests>
                 </configuration>
             </plugin>
         </plugins>
