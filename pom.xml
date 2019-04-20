@@ -14,7 +14,7 @@
     <artifactId>hjmall-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <packaging>pom</packaging>
 
     <!-- 对整个项目所有jar包进行统一管理 -->
     <properties>
